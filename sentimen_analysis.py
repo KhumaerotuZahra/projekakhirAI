@@ -54,4 +54,5 @@ if st.button("🔍 Analisis"):
     else:
         with st.spinner("⏳ Sedang menganalisis..."):
             hasil = analyze_sentiment_gpt(user_input)
-            st.success(f"**Hasil Sentimen:** `{hasil}`")
+            st.success(f"**Hasil Sentimen:** {hasil}")
+
