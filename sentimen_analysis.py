@@ -61,7 +61,7 @@ if st.button("🔍 Analisis"):
         padding: 12px 16px;
         border-radius: 10px;
         font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
-        font-size: 18px;
+        font-size: 12px;
         color: #0a5721;
         margin-top: 15px;
     '>
