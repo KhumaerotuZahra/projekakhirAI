@@ -54,4 +54,20 @@ if st.button("🔍 Analisis"):
     else:
         with st.spinner("⏳ Sedang menganalisis..."):
             hasil = analyze_sentiment_gpt(user_input)
-            st.success(f"**Hasil Sentimen:** `{hasil}`")
+            st.markdown(
+    f"""
+    <div style='
+        background-color: #e6f4ea;
+        padding: 12px 16px;
+        border-radius: 10px;
+        font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
+        font-size: 18px;
+        color: #0a5721;
+        margin-top: 15px;
+    '>
+        <b>Hasil Sentimen:</b> {hasil}
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
