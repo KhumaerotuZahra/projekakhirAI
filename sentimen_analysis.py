@@ -57,17 +57,11 @@ if st.button("🔍 Analisis"):
             st.markdown(
     f"""
     <div style='
-        background-color: #e6f4ea;
-        padding: 12px 16px;
-        border-radius: 10px;
-        font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
-        font-size: 12px;
-        color: #0a5721;
-        margin-top: 15px;
-    '>
-        <b>Hasil Sentimen:</b> {hasil}
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
+    background-color: #e6f4ea;
+    padding: 12px 16px;
+    border-radius: 10px;
+    color: #0a5721;
+    margin-top: 15px;
+'>
+    <strong>Hasil Sentimen:</strong> {hasil}
+</div>
