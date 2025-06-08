@@ -58,8 +58,8 @@ if st.button("🔍 Analisis"):
 
 st.markdown(
     """
-    <div style='position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;'>
-        Assistance from ChatGPT
+    <div style='position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #555; background-color: rgba(255, 255, 255, 0.6); padding: 4px 8px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1);'>
+        Bantuan ChatGPT
     </div>
     """,
     unsafe_allow_html=True
