@@ -56,11 +56,5 @@ if st.button("🔍 Analisis"):
             hasil = analyze_sentiment_gpt(user_input)
             st.success(f"**Hasil Sentimen:** {hasil}")
 
-st.markdown(
-    """
-    <div style='position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #555; background-color: rgba(255, 255, 255, 0.6); padding: 4px 8px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1);'>
-        Bantuan ChatGPT
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.markdown("---")
+st.markdown("<p style='text-align: right; font-size: 12px; color: #888;'>Bantuan ChatGPT</p>", unsafe_allow_html=True)
