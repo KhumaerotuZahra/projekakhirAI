@@ -56,3 +56,11 @@ if st.button("🔍 Analisis"):
             hasil = analyze_sentiment_gpt(user_input)
             st.success(f"**Hasil Sentimen:** {hasil}")
 
+st.markdown(
+    """
+    <div style='position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;'>
+        Assistance from ChatGPT
+    </div>
+    """,
+    unsafe_allow_html=True
+)
